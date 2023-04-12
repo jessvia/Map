@@ -12495,3 +12495,28 @@ iframe {
 .border-primary {
   border-color: transparent;
 }
+
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: #fff;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.card-header {
+  background-color: #0e0e0e;
+  border-bottom: 1px solid #e0d6c620;
+}
+
+.body.THEME_bs-darkly hr {
+  border-top: 1px solid;
+  border-color: #e0d6c6;
+}
+
+input.search {
+  color: #0e0e0e;
+  background-color: #e0d6c6;
+  border-color: #e0d6c6;
+  border-radius: 0px;
+  padding: 6px 10px;
+}
