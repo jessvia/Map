@@ -12462,15 +12462,17 @@ footer .copyright {
     margin-top: 30px;
   }
 }
-
 iframe {
   border: none;
+  font-family: 'Termina', sans-serif;
 }
 
 #finder_address {
   background-color: black;
   color: white;
 }
+
+/* test 2  */
 
 .btn-outline-primary {
   background-color: #e0d6c6;
@@ -12488,14 +12490,13 @@ iframe {
   border: 1px solid #e0d6c6 ;
 }
 
-.control-label, .finder_dba_text, .finder_miles {
+.control-label, .finder_dba_text, .finder_miles, .popover-header {
   color: #e0d6c6;
 }
 
 .border-primary {
   border-color: transparent;
 }
-
 
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
   color: #fff;
@@ -12506,6 +12507,10 @@ iframe {
 .card-header {
   background-color: #0e0e0e;
   border-bottom: 1px solid #e0d6c620;
+}
+
+body.THEME_bs-darkly .btn-outline-secondary, body.THEME_bs-darkly .btn-outline-primary {
+  color: #0e0e0e;
 }
 
 .body.THEME_bs-darkly hr {
