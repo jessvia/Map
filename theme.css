@@ -3,7 +3,7 @@
 /* test 2  */
 
 :root {
-  --text-font-family : 'EB Garamond';
+  --text-font-family : 'EB Garamond', sans-serif;
 }
 
 /**
