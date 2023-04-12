@@ -12525,3 +12525,11 @@ input.search {
   border-radius: 0px;
   padding: 6px 10px;
 }
+
+.card {
+  background-color: #0e0e0e;
+}
+
+.btn-link {
+  color: #e0d6c6;
+}
